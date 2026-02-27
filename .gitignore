@@ -4,8 +4,9 @@ node_modules/
 # Build artifact
 cleanmailbox.xpi
 
-# Dev history
+# Dev stuff
 history.md
+notes.md
 
 # Environment / secrets
 .env

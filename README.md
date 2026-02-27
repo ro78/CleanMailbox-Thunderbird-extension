@@ -1,3 +1,4 @@
+[![Changelog](https://img.shields.io/badge/changelog-view%20details-lightgrey?style=flat-square&logo=gitbook&logoColor=white)](https://github.com/ethersys/CleanMailbox-Thunderbird-extension/blob/main/changelog.md)
 [![Release](https://img.shields.io/badge/release-0.11.0-blue?style=flat-square)](https://github.com/ethersys/CleanMailbox-Thunderbird-extension/releases)
 [![License](https://img.shields.io/badge/license-GPL--3.0-orange?style=flat-square)](https://github.com/ethersys/CleanMailbox-Thunderbird-extension/blob/main/LICENSE)
 ![Thunderbird](https://img.shields.io/badge/Thunderbird-140+-6366f1?style=flat-square&logo=thunderbird&logoColor=white)
@@ -16,11 +17,15 @@ Extension Thunderbird (140+) pour signaler un spam ou ajouter l'expéditeur à l
 
 CleanMailbox est une marque de la société Camille Arpaillange / SIRET 53021905400026. Cette extension est un projet communautaire indépendant et n’est pas affiliée, soutenue ni approuvée par CleanMailbox.
 
-## A propos d'ETHERSYS
+## A propos d'ETHERSYS
 
 [ETHERSYS](https://www.ethersys.fr/) est un hébergeur web toulousain qui propose des espaces d'hébergement très performants avec plusieurs services packagés (noms de domaine, emailing) et qui assure un support humain réactif par téléphone avec des administrateurs système.
 
 Nous utilisons nous-même et proposons en option à nos clients les services de CleanMailbox.
+
+## Installation simple
+
+Téléchargez le fichier cleanmailbox.xpi de la [dernière release](https://github.com/ethersys/CleanMailbox-Thunderbird-extension/releases)  et suivez [l'installation manuelle](https://github.com/ethersys/CleanMailbox-Thunderbird-extension?tab=readme-ov-file#installation-manuelle-dans-thunderbird).
 
 ## 1) Fonctionnement du projet (technique)
 
@@ -89,13 +94,13 @@ Le build vérifie les fichiers requis puis génère `cleanmailbox.xpi`.
 1. Ouvrir Thunderbird.
 2. Aller dans **Modules complémentaires**.
 3. Choisir **Installer un module depuis un fichier**.
-4. Sélectionner `cleanmailbox.xpi`.
+4. Sélectionner `cleanmailbox.xpi`que vous avez généré ou téléchargé de la [dernière release](https://github.com/ethersys/CleanMailbox-Thunderbird-extension/releases).
 
 ## 2) Fonctionnement de l'extension (utilisateur final)
 
 ### Première configuration
 
-1. Ouvrir les options de l'extension CleanMailbox.
+1. Une fois l'extension installée, Thunderbird va ouvrir automatiquement une popin de configuration.
 2. Saisir :
    - votre email de compte CleanMailbox,
    - votre clé API CleanMailbox (située dans "Mon Profil").
